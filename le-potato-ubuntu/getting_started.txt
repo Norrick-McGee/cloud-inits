@@ -1,0 +1,19 @@
+# Step 0 
+## write image to sd card
+## mount cloud-init partition
+le potato ubuntu cloud-init files can be found on the first partition of the newly written sdcard
+```
+mount /dev/sdc1 /media/cloud-init
+```
+file of note:
+user-data
+network-config
+
+# user-data
+this file controls user profiles to be added on first boot
+we're gonna use this to create a custom user.
+
+# network-config
+controls network setup on first boot. 
+we're gonna use this to set up our static IP
+
