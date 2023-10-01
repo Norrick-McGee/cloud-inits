@@ -17,3 +17,7 @@ we're gonna use this to create a custom user.
 controls network setup on first boot. 
 we're gonna use this to set up our static IP
 
+
+# Step -1
+cp le-potato-ubuntu/network-config /media/cloud-init/
+cp le-potato-ubuntu/user-data /media/cloud-init/
